@@ -1,0 +1,27 @@
+\documentclass[sfsidenotes]{tufte-handout}
+
+$if(title)$
+\title{$title$}
+$endif$
+$if(author)$
+\author{$author$}
+$endif$
+$if(date)$
+\date{$date$}
+$endif$
+
+\begin{document}
+
+$if(title)$
+\maketitle
+$endif$
+$if(toc)$
+\begin{marginnote}
+  \tableofcontents
+\end{marginnote}
+$endif$
+
+$body$
+
+\end{document}
+
