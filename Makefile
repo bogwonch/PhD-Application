@@ -1,4 +1,4 @@
-OUTPUT=Personal-Statement.pdf
+OUTPUT=Personal-Statement.pdf Research-Proposal.pdf
 
 LATEX=pdflatex
 RM=/bin/rm -f
@@ -23,6 +23,6 @@ check:
 	aspell -c $(wildcard *.md)
 	languagetool $(wildcard *.md) | $(PAGER)
 	diction --beginner --suggest $(wildcard *.md) | $(PAGER)
-	style -n -p $(wildcard *.md) | $(PAGER)
+	style -p $(wildcard *.md) | $(PAGER)
 	wc $(wildcard *.md)
 
