@@ -20,4 +20,6 @@ Exfiltration is a growing problem for both companies and governments.  Recent ef
 
 Looking at steganographic architectures fits well with the cryptography group's interests.  The implementation of a secure systems on top of small computer architectures is of particular interest.  The verification that such a steganographic does provide information security adds further value. 
 
+# Am I the person for the job
 
+For my Masters' degree thesis I have looked at the possibility of finding platform independant snippets of bytecode for various computer architectures.
