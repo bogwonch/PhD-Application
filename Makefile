@@ -24,4 +24,5 @@ check:
 	languagetool $(wildcard *.md) | $(PAGER)
 	diction --beginner --suggest $(wildcard *.md) | $(PAGER)
 	style -n -p $(wildcard *.md) | $(PAGER)
+	wc $(wildcard *.md)
 
