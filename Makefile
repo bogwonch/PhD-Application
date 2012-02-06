@@ -18,3 +18,10 @@ tidy:
 
 clean: tidy
 	@${RM} $(wildcard *.pdf)
+
+check:
+	aspell -c $(wildcard *.md)
+	languagetool $(wildcard *.md) | $(PAGER)
+	diction --beginner --suggest $(wildcard *.md) | $(PAGER)
+	style -n -p $(wildcard *.md) | $(PAGER)
+
