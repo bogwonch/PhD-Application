@@ -13,13 +13,10 @@ There has been relatively little research on the feasability of this or if wheth
 
 # Is it worth doing
 
-Exfiltration is a growing problem for both companies and governments.  Recent efforts by *Wikileaks* and articles about hacking have increased the public perception of the problem.  As well as this...
+Exfiltration is a growing problem for both companies and governments.  Recent efforts by *Wikileaks* and articles about hacking have increased the public perception of the leakage problem.  
 
 
 # Are we interested in this
 
-Looking at steganographic architectures fits well with the cryptography group's interests.  The implementation of a secure systems on top of small computer architectures is of particular interest.  The verification that such a steganographic does provide information security adds further value. 
+Looking at steganographic architectures fits well with the cryptography group's interests.  The implementation of a secure systems on top of small computer architectures is of particular interest. Verifying that such a steganographic provides information-security adds further value. 
 
-# Am I the person for the job
-
-For my Masters' degree thesis I have looked at the possibility of finding platform independant snippets of bytecode for various computer architectures.
