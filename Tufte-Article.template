@@ -1,4 +1,7 @@
 \documentclass[sfsidenotes]{tufte-handout}
+$if(natbib)$
+\usepackage{natbib}
+$endif$
 
 $if(title)$
 \title{$title$}
@@ -22,6 +25,11 @@ $if(toc)$
 $endif$
 
 $body$
+
+$if(natbib)$
+\bibliographystyle{plain}
+\bibliography{$biblio-files$}
+$endif$
 
 \end{document}
 
