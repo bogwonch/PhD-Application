@@ -23,7 +23,7 @@ Research-Proposal.pdf: Research-Proposal.tex Research-Proposal.bib
 	@${LATEX} Research-Proposal
 
 tidy:
-	@${RM} $(wildcard *.aux) $(wildcard *.log) $(wildcard *.out) $(wildcard *.tex)
+	@${RM} $(wildcard *.aux) $(wildcard *.log) $(wildcard *.out) $(wildcard *.tex) $(wildcard *.bbl) $(wildcard *.blg)
 
 clean: tidy
 	@${RM} $(wildcard *.pdf)
