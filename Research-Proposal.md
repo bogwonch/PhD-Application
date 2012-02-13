@@ -20,10 +20,10 @@ When run on an unaltered architecture the program takes action to defend against
 There are many advantages to using a steganographic system such as this over DRM.
 The protection would be difficult to remove as it requires decompilation and translation to the unmodified architecture[@Cifuentes:bq].
 Any platform independent program generated is always valid for any architecture it is compiled for.
-The original progam will remain hidden unless someone inspects the binary and can untangle the obfuscation.
+The original program will remain hidden unless someone inspects the binary and can untangle the obfuscation.
 
 There has been relatively few attempts to demonstrate this form of byte-code steganography in practice[@Cha:2010].
-For my Masters thesis I looked at finding platform independant programs for various architectures.
+For my Masters thesis I looked at finding platform independent programs for various architectures.
 I wish to extend the work and look at using byte-code steganography for exfiltration protection.
 I will develop a tool-chain to modify an existing architecture and create steganographically protected programs.
 Then I will audit the generated executables to see how much security is provided by the technique.
@@ -32,13 +32,13 @@ Existing research has worked on detecting when exfiltration is happening[@Liu:20
 With generic data strong encryption will always provide a good level of protection against theft.
 But with executable code we have more options and the potential to add counter-measures to let us know when the data has been stolen.
 A really nice advantage of using steganography to provide this is that the cover-text can be this defensive program.
-The covertext could be used to install malware, or behave as an inefficient implementation of the hidden program.
+The cover-text could be used to install malware, or behave as an inefficient implementation of the hidden program.
 
 This topic is interesting for any group interested in security auditing, and the software and hardware necessary to implement secure systems.
 Byte-code steganography and platform independent programs is also of interest for groups looking at the security of instruction sets.
 It is also interesting for people studying compiler support for steganography.
 Recent work by people inside Bristol University's Cryptography and Information Security group suggest some interest in steganography[@Zaharis:2011cl].
-Polymorphism can be used by platform independant programs to hide their presence.
+Polymorphism can be used by platform independent programs to hide their presence.
 Looking into polymorphic coding techniques is something else the group has been interested in[@Amarilli:2011fm].
 
 I believe that studying steganographic solutions to exfiltration is an interesting topic.
