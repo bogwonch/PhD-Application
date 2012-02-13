@@ -1,6 +1,6 @@
-OUTPUT=Personal-Statement.pdf 
+OUTPUT=Personal-Statement.pdf Research-Proposal.pdf
 
-LATEX=pdflatex
+LATEX=pdflatex 
 RM=/bin/rm -f
 MD=pandoc
 MDFLAGS=--smart --normalize --template=Tufte-Article.template -t Latex
